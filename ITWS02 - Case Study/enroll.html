@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Student Registration Form Example</title>
+    <link rel="stylesheet" type="text/css" href="enroll.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<nav>
+        <a href="index.html"><img src="images/favicon.png"></a>
+        <div class="nav-links" id="navLinks">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="campus.html">CAMPUSES</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="enroll.html">ENROLL</a></li>
+                <li><a href="portal.html">PORTAL</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+<section>
+    <div class="rt-container">
+          <div class="col-rt-12">
+              <div class="Scriptcontent">
+                      <form class="reg-form">
+        <div class="field-row">
+            <h1>STUDENT REGISTRATION FORM</h1> 
+            <p class="helper-text">* denotes a required field</p>
+            <label class="form-label" for="firstName">First name</label>
+            <input type="text" id="firstName" class="field text-field first-name-field" required>
+            <span class="message"></span>
+        </div>
+
+        <div class="field-row">
+            <label class="form-label cf" for="lastName">Last name</label>
+            <input type="text" id="lastName" class="field text-field last-name-field" required>
+            <span class="message"></span>
+        </div>
+                <div class="field-row">
+            <label class="form-label" for="initials">Guardian's Name</label>
+            <input type="text" id="initials" class="field text-field initials-field">
+        </div>
+        
+                          
+        <div class="field-row">
+            <label class="form-label" for="dateOfBirth">Date of birth</label>
+            <input type="date" id="dateOfBirth" class="field date-field dob-field" min="1900-01-01" max="2015-09-18"  required>
+            <span class="message"></span>
+        </div>
+        
+        <div class="field-row">
+            <label class="form-label" for="tel">Telephone/Mobile</label>
+            <input type="tel" id="tel" class="field text-field tel-field" required>
+            <span class="message"></span>
+        </div>
+                          
+           <div class="field-row">
+            <label class="form-label" for="hs">High School Name</label>
+            <input type="text" id="hs" class="field text-field hs-field" required>
+            <span class="message"></span>
+        </div>
+                          
+       <div class="field-row">
+            <label class="form-label" for="tel">Permanent Address</label>
+            <input type="tel" id="tel" class="field text-field address-field" required>
+            <span class="message"></span>
+        </div>
+                           <div class="field-row">
+                                    <label class="form-label">Year Level</label>
+                           <select class="form-dropdown field">
+                <option value="1st Year"> 1st Year </option>
+                <option value="2nd Year"> 2nd Year </option>
+                <option value="3rd Year"> 3rd Year </option>
+                <option value="4th Year"> 4th Year </option>
+                <option value="5th Year"> 5th Year </option>
+              </select>
+                          </div>
+        <div class="field-row">
+            <label class="form-label" for="email">Email</label>
+            <input type="email" id="email" class="field text-field email-field" required>
+            <span class="message"></span>
+        </div>
+                          <div class="field-row">
+                          <label class="form-label"> Degree Program</label>
+                           <select class="field form-dropdown">
+              <option value="BS in Information Technology"> BS in Information Technology </option>
+              <option value="BS in in Criminology "> BS in in Criminology </option>
+              <option value="BS in Business Administration"> BS in Business Administration</option>
+              <option value="BS in Nursing"> BS in Nursing </option>
+              <option value="BS in Civil Engineering">BS in Civil Engineering </option>
+              <option value="BS in Architecture"> BS in Architecture</option>
+            </select>
+                          </div>
+    
+        <div class="field-row">
+            <label class="form-label"></label>
+            <button class="form-button">Register</button>
+        </div>
+    </form>
+   <!-- End Student Registration Form -->
+    		</div>
+		</div>
+    </div>
+</section>
+
+	</body>
+</html>
