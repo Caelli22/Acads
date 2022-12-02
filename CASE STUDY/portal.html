@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portal</title>
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" type="text/css" href="portal.css">
+</head>
+
+<body>
+
+<div class="forms-out">
+  <div class="forms-in">
+    <div>
+      <img src="images/favicon.png" class="logo">
+      <h3>Sign In to Student Portal</h3>
+      <form name="login">
+      Username<input type="text" name="userid"/>
+      Password<input type="password" name="pass"/>
+      <button id="login" onclick="check(this.form)" value="Login">Login</button>
+      <button type="reset">Clear</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<script language="javascript">
+function check(form)
+{
+ if(form.userid.value == "dave" && form.pass.value == "dave")
+  {
+    window.open('info.html')
+  }
+ else
+ {
+   alert("Error Username or Password")
+  }
+}
+</script>
+
+</body>
+</html>
